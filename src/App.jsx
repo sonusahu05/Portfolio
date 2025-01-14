@@ -20,29 +20,52 @@ const App = () => {
       <Navbar />
       <Hero />
       <Section
-        title="College Experience"
+        title="Alkermes, Massachusetts, USA"
         points={[
-          "Graduated with a BTech in Electronics and a minor in Computer Science.",
-          "Achieved an 8.35 CGPA at Sardar Patel Institute of Technology.",
-          "Solved long queues for railway concession forms by digitizing the process.",
-          "Learned Flutter, formed a team, and deployed the app on Play Store and web.",
-          "Won hackathons and contributed to open-source projects.",
+          "As a Machine Learning Intern, I advanced drug discovery by utilizing a BERT-based LLM model to analyze gene expression shifts in Schizophrenia patients.",
+          "I tokenized 50,000 single-cell RNA data, representing cells as sequences of gene tokens, and achieved a 0.88 F1 score in classifying cell disease states using a Distributed Data Multi-GPU approach.",
+          "I also identified two drug target genes that, when modified, successfully altered diseased cells to a healthy state.",
+          "This can save 6 years of research time and around millions of dollars of the company.",
         ]}
         image={collegeImg}
       />
       <Section
-        title="Professional Experience"
+        title="Duarte Lab, San Diego, CA, USA"
         points={[
-          "Interned at JPMorgan for 7 months during the final semester of college.",
-          "Automated repetitive tasks using Selenium and VBA.",
-          "Worked on 40+ projects and collaborated with 28+ diverse teams.",
-          "Developed a predictive machine learning model with 91% accuracy.",
-          "Created an interactive Tableau dashboard.",
-          "Worked as a Junior Analyst in Investment Banking, combining tech and finance.",
-          "Built a Resume Screener tool using machine learning and LLM integration.",
+          "At Duarte Lab, I contributed as a Deep Learning Student Researcher by enhancing particle identification through the integration of physics-informed features into a Self-Attention mechanism.",
+          "My work involved visualizing attention weights to uncover particle interactions, achieving a 0.92 mean AUC in classifying rare particles.",
+          "I also optimized the model, reducing its size by 70% and inference time by 40%.",
+          "I will present these findings at NeurIPS 2024.",
         ]}
         image={jpmcImg}
         reverse
+      />
+      <Section
+        title="Shiley Eye Institute, San Diego, CA, USA"
+        points={[
+          "During my internship at Shiley Eye Institute, I focused on diagnosing Glaucoma types through semantic segmentation and image classification of retinal images.",
+          "I achieved a mean IoU of 0.76 in segmenting cups and discs using the DeepLabv3+ model and classified discs with 0.82 precision using MobileNetV2.",
+          "My efforts also led to a 60% reduction in model size, making it suitable for deployment on smaller devices in clinical settings.",
+        ]}
+        image={jpmcImg}
+      />
+      <Section
+        title="Berg Lab, San Diego, CA, USA"
+        points={[
+          "As the NLP Project Lead at Berg Lab, I developed an autocomplete system by creating a GPT-like model trained on a dataset of 220,000 movie dialogues.",
+          "Through tokenization and experimentation with Sparse Attention patterns, I achieved a perplexity score of 32.",
+          "My work also resulted in a 22% increase in typing speed by providing adaptive generative word suggestions.",
+        ]}
+        image={jpmcImg}
+        reverse
+      />
+      <Section
+        title="LTIMindtree, Mumbai, Maharashtra, India"
+        points={[
+          "At LTIMindtree, I served as a Senior Data Engineer, where I established data pipelines using ETL tools, managed databases with SQL, and built machine learning models.",
+          "I also created interactive visualizations with dashboard software and led research projects focused on delivering machine learning solutions.",
+        ]}
+        image={jpmcImg}
       />
       <CarouselSection
         title="Freelancing and Skills"
@@ -54,16 +77,16 @@ const App = () => {
           "Skilled in Web Development, Mobile Development, Cloud, DevOps, and Blockchain.",
         ]}
       />
-	<Section
-		title="No-Code Automation Platform Pitch"
-		image={nocode}
-		points={[
-			"During my time as a Fintech Intern at JPMorgan, I noticed a recurring challenge: every project required us to write code from scratch to automate repetitive tasks. This approach not only consumed a lot of time but also required deep coding knowledge, making it less accessible to the analysts who often had the domain expertise but not the technical skills.",
-			"This experience sparked an idea for a no-code solution: a platform that allows users to create automation flows using a visual flowchart interface. The idea is simple: analysts could design workflows with logic and then have the system automatically generate executable code based on their flowchart design. This way, they wouldn’t need coding knowledge or a dedicated tech team to implement their solutions.",
-			"I believe that such a platform could be a game-changer for companies, especially those in sectors like fintech, where automation is crucial but often requires a lot of technical expertise. With a no-code solution, analysts could easily build and deploy automation tools, saving time and increasing efficiency.",
-			"I’m excited about the opportunity to work with Machine Learning on this idea. Machine Learning’s infrastructure and expertise could be the perfect environment to bring this no-code automation platform to life, and I believe it would be a valuable offering for many companies in the fintech and other industries that rely on automation.",
-		]}
-	/>
+      <Section
+        title="Machine Learning Intern"
+        points={[
+          "As a Machine Learning Intern, I advanced drug discovery by utilizing a BERT-based LLM model to analyze gene expression shifts in Schizophrenia patients.",
+          "I tokenized 50,000 single-cell RNA data, representing cells as sequences of gene tokens, and achieved a 0.88 F1 score in classifying cell disease states using a Distributed Data Multi-GPU approach.",
+          "I also identified two drug target genes that, when modified, successfully altered diseased cells to a healthy state.",
+          "This can save 6 years of research time and around millions of dollars of the company.",
+        ]}
+        image={nocode}
+      />
       <Footer />
     </div>
   );
